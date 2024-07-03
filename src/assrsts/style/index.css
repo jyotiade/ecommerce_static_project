@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500&display=swap');
+
+* {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    background-color:whitesmoke;
+}
+
+#nav div {
+    margin: 10px;
+    font-size: 20px;
+    margin-bottom:0px;
+    margin-top:40px;
+    margin-right: 60px;
+    margin-left:0px ;
+}
+#img{
+    border-radius: 50%;
+    margin-left:0px;
+    margin-right:30px;
+    margin-top: -20px;
+
+}
+
+#nav input {
+    color: white;
+    height: 20px;
+    width: 500px;
+    padding-top: 15px;
+    margin-top:40px;
+    background-color:white;
+    margin-right: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 3px;
+    font-size: 20px;
+    margin-left:20px;
+     padding-bottom: 5px;
+}
+/* @media() */
+/* ========================home====================================== */
+#home {
+   
+    height:100vh;
+    width:100%;
+    background-image: url("https://capricathemes.com/opencart/OPC02/OPC020033/image/cache/catalog/main-banner-2-1903x975.jpg " );
+    margin-bottom: 100px;
+    padding-top:200px;
+    padding-bottom:10px;
+    margin-top: -160px;
+}
+
+/* ==================================section1======================= */
+#sec1{
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+#sec1 div div{
+    margin-top: -10px;
+    margin-left: 30px;
+    /* margin-top: 10px; */
+}
+#sec1 div div img{
+    
+       width:90px;
+      
+
+}
+#sec1 div p{
+    color: gray;
+    margin-top: -40px;
+}
+#sec1 div{
+    margin: 40px;
+}
+/* ===================================section2====================================== */
+#div1{
+    display:flex;
+    justify-content: center;
+}
+#div2{
+    border: 10px solid rgb(225, 221, 221);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+   
+}
+/* ================================section3========================================== */
+#div3{
+    display: flex;
+    justify-content: center;
+   
+}
+#div3 div{
+    margin-top: 50px;
+    margin: 40px;
+    color: rgb(73, 66, 66);
+
+}
+/* ==============================section4================================ */
+#div4{
+    display: flex;
+    justify-content: center;
+}
+#div4 div{
+    margin-top: 10px;
+    margin:5px;
+   }
+
+/* #div5{
+    display: flex;
+    justify-content: center;
+}
+#div5 div{
+    margin-top: 10px;
+    margin:5px;
+  
+   } */
+/* ================================section5================================== */
+#mid{
+    height:600px;
+    width:100%;
+   background-image: url("https://capricathemes.com/opencart/OPC02/OPC020033/image/catalog/cms-banner.jpg " );
+   margin-top: 80px;
+   padding-bottom: -900px;
+   padding-top:-400px;
+}
+ aside{
+    float: right;
+    color: white;
+    padding-top: 250px;
+    padding-right:90px;
+}
+aside button{
+   margin-top: 90px;
+   padding:15px 35px 15px 35px;
+   border: 2px solid black;
+   background-color: white;
+}
+/* ================================================section6=================================== */
+#mem{
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+/* ===========================================section7======================== */
+#div5{
+    display: flex;
+    justify-content: center;
+}
+#div5 img{
+    width: 350px;
+    height: 300px;
+    margin: 30px;
+}
+/* =======================================section8===================== */
+#div6{
+    display: flex;
+    justify-content: center;
+}
+#div6 div img{
+    margin: 40px;
+}
+/* ========================================================================= */
+#foot{
+    background-color: black;
+    color: white;
+   
+}
+#ele{
+        display: flex;
+        justify-content:left;
+        color: gray;
+        list-style: none;       
+}
+#ele li{
+    margin: 15px;
+    margin-left: -50px;
+    margin-top: -70px;
+    padding: 30px;
+    margin-right:-45px;
+}
+#in{
+    display: flex;
+    justify-content: center;
+
+}
+#in div{
+    margin: 20px 90px 20px 90px;
+}
+#whole{
+    display: flex;
+    justify-content: center;
+}
+#whole div{
+    margin: 100px;
+}
+#whole div li{
+    margin-bottom: 20px;
+    font-size: 13px;
+    list-style-type: none;
+}
+#s1{
+    display: flex;
+    justify-content: center;
+   
+}
+#s1 div img{
+    width: 300px;
+    height: 400px;
+    margin: 40px 90px 20px 40px;
+}
+#sclp aside{
+    float: left;
+    color: black;
+    border: 2px  ;
+    margin-right: 10px;
+    margin-top: 10px;
+    position: fixed;
+
+
+}
+#sclp aside li{
+    margin: 10px;
+    list-style: none;
+}
+#u1{
+    margin-top: -250px;
+    font-size: 15px;
+}
+#l1{
+    font-size: 20px;
+}
+#u1 li{
+    
+    padding: 10px;
+}
+#side{
+    margin-left: 300px;
+}
+#p1{
+    font-size: 17px;
+}
+#sclp{
+    z-index: 1000;
+    margin-bottom: 60px;
+}
+#s2{
+    display: flex;
+    justify-content: center;
+   
+}
+#s2 div img{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+}
+#s2 div div{
+    font-size: 20px;
+}
